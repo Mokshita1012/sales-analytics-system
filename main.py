@@ -71,6 +71,7 @@ def main():
         print("Analysis complete")
 
         # Step 6 – Retrieve product details from API
+        # Fetch comprehensive product information from DummyJSON API
         print("[6/10] Fetching product data from API...")
         api_products = fetch_all_products()
         product_mapping = create_product_mapping(api_products)
