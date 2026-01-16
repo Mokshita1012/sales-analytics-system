@@ -85,6 +85,7 @@ def main():
         print(f"Enriched {enriched_count}/{len(enriched_data)} transactions")
 
         # Step 8 – Store enriched dataset to file
+        # Persist enriched data with API-matched product information
         print("[8/10] Saving enriched data...")
         with open("data/enriched_sales_data.txt", "w", encoding="utf-8") as file:
             header = (
