@@ -111,6 +111,7 @@ def main():
         print("Report saved to: output/sales_report.txt")
 
         # Step 10 – Execution finished
+        # Complete workflow with all steps successfully executed
         print("[10/10] Process Complete!")
         print("========================================")
 
