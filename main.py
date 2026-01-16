@@ -54,6 +54,7 @@ def main():
         print("Filter Summary:", filter_summary)
 
         # Step 4 – Final validation confirmation
+        # Verify data integrity before analysis
         print("[4/10] Validating transactions...")
         print("Valid records:", len(cleaned_data))
 
