@@ -1,3 +1,11 @@
+"""
+Sales Analytics System - Main Application Controller
+====================================================
+This module orchestrates the entire sales analytics workflow.
+
+Step 1: Read Sales Data - Load raw sales transactions from data files
+"""
+
 from utils.file_handler import read_sales_data
 from utils.data_processor import (
     parse_and_clean_data,
