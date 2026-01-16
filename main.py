@@ -105,6 +105,7 @@ def main():
         print("Saved to: data/enriched_sales_data.txt")
 
         # Step 9 – Create sales analytics report
+        # Generate comprehensive analytics report with enriched data
         print("[9/10] Generating report...")
         generate_sales_report(cleaned_data, enriched_data, "output/sales_report.txt")
         print("Report saved to: output/sales_report.txt")
