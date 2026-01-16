@@ -78,6 +78,7 @@ def main():
         print("Products fetched:", len(api_products))
 
         # Step 7 – Merge API details with sales data
+        # Enrich transactions with product categories, brands, and ratings
         print("[7/10] Enriching sales data...")
         enriched_data = enrich_sales_data(cleaned_data, product_mapping)
         enriched_count = sum(1 for t in enriched_data if t["API_Match"])
