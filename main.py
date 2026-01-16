@@ -59,6 +59,7 @@ def main():
         print("Valid records:", len(cleaned_data))
 
         # Step 5 – Perform analytical computations
+        # Calculate revenue, trends, and performance metrics
         print("[5/10] Analyzing sales data...")
         total_revenue = calculate_total_revenue(cleaned_data)
         region_data = region_wise_sales(cleaned_data)
