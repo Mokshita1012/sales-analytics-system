@@ -1,0 +1,19 @@
+# Core Dependencies
+requests==2.31.0
+
+# Optional: Data Processing & Visualization
+# Uncomment if you want to enhance the system with these libraries
+# pandas==2.1.3
+# numpy==1.24.3
+# matplotlib==3.8.2
+# seaborn==0.13.0
+
+# Optional: Database Support
+# sqlalchemy==2.0.23
+# pymysql==1.1.0
+
+# Optional: Development & Testing
+# pytest==7.4.3
+# pytest-cov==4.1.0
+# black==23.12.0
+# pylint==3.0.3
