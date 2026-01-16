@@ -48,6 +48,7 @@ def main():
         print("Invalid records removed:", invalid_count)
 
         # Step 3 – Display filtering choices
+        # Apply optional filters to refined analysis
         print("[3/10] Filter Options Available:")
         cleaned_data, filter_summary = validate_and_filter_sales(cleaned_data)
         print("Filter Summary:", filter_summary)
