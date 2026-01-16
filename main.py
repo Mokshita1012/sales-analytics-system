@@ -41,6 +41,7 @@ def main():
         print("Successfully read", len(raw_data), "transactions")
 
         # Step 2 – Clean and structure raw records
+        # Parse raw data and remove invalid entries
         print("[2/10] Parsing and cleaning data...")
         cleaned_data, invalid_count = parse_and_clean_data(raw_data)
         print("Parsed records:", len(cleaned_data))
